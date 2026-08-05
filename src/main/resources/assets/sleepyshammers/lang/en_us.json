@@ -1,12 +1,9 @@
 {
-  "itemGroup.sleepyshammers": "Example Mod Tab",
-  "block.sleepyshammers.example_block": "Example Block",
-  "item.sleepyshammers.example_item": "Example Item",
-  "sleepyshammers.configuration.title": "Sleepy's Hammers Configs",
-  "sleepyshammers.configuration.section.sleepyshammers.common.toml": "Sleepy's Hammers Configs",
-  "sleepyshammers.configuration.section.sleepyshammers.common.toml.title": "Sleepy's Hammers Configs",
-  "sleepyshammers.configuration.items": "Item List",
-  "sleepyshammers.configuration.logDirtBlock": "Log Dirt Block",
-  "sleepyshammers.configuration.magicNumberIntroduction": "Magic Number Text",
-  "sleepyshammers.configuration.magicNumber": "Magic Number"
+  "item.sleepyshammers.wooden_hammer": "Wooden Hammer",
+  "item.sleepyshammers.stone_hammer": "Stone Hammer",
+  "item.sleepyshammers.copper_hammer": "Copper Hammer",
+  "item.sleepyshammers.iron_hammer": "Iron Hammer",
+  "item.sleepyshammers.golden_hammer": "Golden Hammer",
+  "item.sleepyshammers.diamond_hammer": "Diamond Hammer",
+  "item.sleepyshammers.netherite_hammer": "Netherite Hammer"
 }
