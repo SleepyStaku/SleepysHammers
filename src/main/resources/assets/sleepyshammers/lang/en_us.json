@@ -1,0 +1,12 @@
+{
+  "itemGroup.sleepyshammers": "Example Mod Tab",
+  "block.sleepyshammers.example_block": "Example Block",
+  "item.sleepyshammers.example_item": "Example Item",
+  "sleepyshammers.configuration.title": "Sleepy's Hammers Configs",
+  "sleepyshammers.configuration.section.sleepyshammers.common.toml": "Sleepy's Hammers Configs",
+  "sleepyshammers.configuration.section.sleepyshammers.common.toml.title": "Sleepy's Hammers Configs",
+  "sleepyshammers.configuration.items": "Item List",
+  "sleepyshammers.configuration.logDirtBlock": "Log Dirt Block",
+  "sleepyshammers.configuration.magicNumberIntroduction": "Magic Number Text",
+  "sleepyshammers.configuration.magicNumber": "Magic Number"
+}
