@@ -1,6 +1,7 @@
 package de.sleepystaku.sleepyshammers;
 
 import com.mojang.logging.LogUtils;
+import de.sleepystaku.sleepyshammers.item.ModItems;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.ModContainer;
@@ -24,6 +25,8 @@ public class SleepysHammers {
     public SleepysHammers(IEventBus modEventBus, ModContainer modContainer) {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
+
+        ModItems.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in.
         // Note that this is necessary if and only if we want *this* class (SleepysHammers) to respond directly to events.
