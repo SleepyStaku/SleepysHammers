@@ -41,7 +41,7 @@ public class ModRecipeProvider extends RecipeProvider {
                 .pattern(" S ")
                 .define('#', Tags.Items.STONES)
                 .define('S', Items.STICK)
-                .unlockedBy(getHasName(Items.STONE), has(Tags.Items.STONES))
+                .unlockedBy(getHasName(Items.STONE), has(ItemTags.STONE_CRAFTING_MATERIALS))
                 .unlockedBy(getHasName(Items.STICK), has(Items.STICK))
                 .group("Stone Hammer")
                 .save(output);
