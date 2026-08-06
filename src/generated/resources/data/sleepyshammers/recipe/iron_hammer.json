@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "Iron Hammer",
+  "key": {
+    "#": "minecraft:iron_ingot",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    "###",
+    "#S#",
+    " S "
+  ],
+  "result": {
+    "id": "sleepyshammers:iron_hammer"
+  }
+}

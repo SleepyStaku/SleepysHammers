@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "Wooden Hammer",
+  "key": {
+    "#": "#minecraft:planks",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    "###",
+    "#S#",
+    " S "
+  ],
+  "result": {
+    "id": "sleepyshammers:wooden_hammer"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "Stone Hammer",
+  "key": {
+    "#": "#c:stones",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    "###",
+    "#S#",
+    " S "
+  ],
+  "result": {
+    "id": "sleepyshammers:stone_hammer"
+  }
+}
