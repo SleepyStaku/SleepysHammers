@@ -3,7 +3,7 @@
   "category": "equipment",
   "group": "Wooden Hammer",
   "key": {
-    "#": "#minecraft:planks",
+    "#": "#minecraft:wooden_tool_materials",
     "S": "minecraft:stick"
   },
   "pattern": [

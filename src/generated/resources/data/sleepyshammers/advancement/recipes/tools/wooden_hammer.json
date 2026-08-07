@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_planks": {
+    "has_oak_planks": {
       "conditions": {
         "items": [
           {
-            "items": "#minecraft:planks"
+            "items": "#minecraft:wooden_tool_materials"
           }
         ]
       },
@@ -31,7 +31,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_planks",
+      "has_oak_planks",
       "has_stick"
     ]
   ],

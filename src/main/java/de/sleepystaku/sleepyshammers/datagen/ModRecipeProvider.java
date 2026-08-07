@@ -28,9 +28,9 @@ public class ModRecipeProvider extends RecipeProvider {
                 .pattern("###")
                 .pattern("#S#")
                 .pattern(" S ")
-                .define('#', ItemTags.PLANKS)
+                .define('#', ItemTags.WOODEN_TOOL_MATERIALS)
                 .define('S', Items.STICK)
-                .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                .unlockedBy(getHasName(Items.OAK_PLANKS), has(ItemTags.WOODEN_TOOL_MATERIALS))
                 .unlockedBy(getHasName(Items.STICK), has(Items.STICK))
                 .group("Wooden Hammer")
                 .save(output);
