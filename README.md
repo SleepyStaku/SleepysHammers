@@ -1,25 +1,103 @@
+This mod adds 7 new hammers from wood to netherite that break 3x3x1 block areas.
+All hammers can be enchanted and have the same durability as their corresponding pickaxe tier.
 
-Installation information
-=======
+## Recipes
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+<details>
+<summary>Wooden Hammer</summary>
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
+You can use any wood plank, just like with other wooden tools.
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
+| Column 1 | Column 2 | Column 3 |
+|:---:|:---:|:---:|
+| Any Wood Plank | Any Wood Plank | Any Wood Plank |
+| Any Wood Plank | Stick | Any Wood Plank |
+| | Stick | |
 
-Mapping Names:
-============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
+![Crafting recipe for a wooden hammer made with five wooden planks surrounding two sticks in the center column](https://cdn.modrinth.com/data/cached_images/2bffbd23cefdc872fb6f4f63fd4d253e413092ca.png)
 
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+</details>
+
+
+<details>
+<summary>Stone Hammer</summary>
+
+You can use any stone material, just like with other stone tools.
+
+| Column 1 | Column 2 | Column 3 |
+|:---:|:---:|:---:|
+| Any Stone | Any Stone | Any Stone |
+| Any Stone | Stick | Any Stone |
+| | Stick | |
+
+![Crafting recipe for a stone hammer made with five cobblestone blocks surrounding two sticks in the center column](https://cdn.modrinth.com/data/cached_images/ae24272a1d00b4ed3618f611e3fe9ef628d94992.png)
+
+</details>
+
+
+<details>
+<summary>Copper Hammer</summary>
+
+| Column 1 | Column 2 | Column 3 |
+|:---:|:---:|:---:|
+| Copper Ingot | Copper Ingot | Copper Ingot |
+| Copper Ingot | Stick | Copper Ingot |
+| | Stick | |
+
+![Crafting recipe for a copper hammer made with five copper ingots surrounding two sticks in the center column](https://cdn.modrinth.com/data/cached_images/a6ab4d9f77a257aff3161096d02250919a98e3ce.png)
+
+</details>
+
+
+<details>
+<summary>Iron Hammer</summary>
+
+| Column 1 | Column 2 | Column 3 |
+|:---:|:---:|:---:|
+| Iron Ingot | Iron Ingot | Iron Ingot |
+| Iron Ingot | Stick | Iron Ingot |
+| | Stick | |
+
+![Crafting recipe for an iron hammer made with five iron ingots surrounding two sticks in the center column](https://cdn.modrinth.com/data/cached_images/a733b461c9b466b5fdae9e3e10ab661e68b744eb.png)
+
+</details>
+
+
+<details>
+<summary>Golden Hammer</summary>
+
+| Column 1 | Column 2 | Column 3 |
+|:---:|:---:|:---:|
+| Gold Ingot | Gold Ingot | Gold Ingot |
+| Gold Ingot | Stick | Gold Ingot |
+| | Stick | |
+
+![Crafting recipe for a golden hammer made with five gold ingots surrounding two sticks in the center column](https://cdn.modrinth.com/data/cached_images/bc5c92b7841b151b6ae80854960e696354eca78b.png)
+
+</details>
+
+
+<details>
+<summary>Diamond Hammer</summary>
+
+| Column 1 | Column 2 | Column 3 |
+|:---:|:---:|:---:|
+| Diamond | Diamond | Diamond |
+| Diamond | Stick | Diamond |
+| | Stick | |
+
+![Crafting recipe for a diamond hammer made with five diamonds surrounding two sticks in the center column](https://cdn.modrinth.com/data/cached_images/5259158f50ad58c78cf334a628fd1c55b026ba9a.png)
+
+</details>
+
+
+<details>
+<summary>Netherite Hammer</summary>
+
+| Template Slot | Base Slot | Addition Slot |
+|:---:|:---:|:---:|
+| Netherite Upgrade Smithing Template | Diamond Hammer | Netherite Ingot |
+
+![Smithing table recipe showing a diamond hammer upgraded to a netherite hammer using a netherite ingot and smithing template](https://cdn.modrinth.com/data/cached_images/89797fb4d7efeab0b835d952e011e3f623c15f94.png)
+
+</details>
