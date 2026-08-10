@@ -31,11 +31,12 @@ public class ModEvents {
 
         if (mainHandItem.getItem() instanceof HammerItem hammer && player instanceof ServerPlayer serverPlayer) {
             BlockPos initialBlockPos = event.getPos();
+            int blockBreakRange = hammer.getRange();
             if (HARVESTED_BLOCKS.contains(initialBlockPos)) {
                 return;
             }
 
-            for (BlockPos pos : HammerItem.getBlocksToBeDestroyed(1, initialBlockPos, serverPlayer)) {
+            for (BlockPos pos : HammerItem.getBlocksToBeDestroyed(blockBreakRange, initialBlockPos, serverPlayer)) {
                 if (pos == initialBlockPos || !hammer.isCorrectToolForDrops(mainHandItem, event.getLevel().getBlockState(pos))) {
                     continue;
                 }
