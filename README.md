@@ -1,5 +1,4 @@
-This mod adds 7 new hammers from wood to netherite that break 3x3x1 block areas.
-All hammers can be enchanted and have the same durability as their corresponding pickaxe tier.
+This mod adds new simple hammers from wood to netherite that can break 3x3 block areas.
 
 ## Recipes
 
